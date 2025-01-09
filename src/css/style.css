@@ -401,8 +401,8 @@
 
 .inspiration__grid {
   display: grid;
-  grid-template-columns: repeat(4, 333px);
-  grid-template-rows: repeat(2, 225px);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   gap: 30px 30px;
   margin-top: 50px;
   img {
