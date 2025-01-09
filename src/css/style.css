@@ -66,7 +66,8 @@
   @media screen and (max-width: 801px) {
     & {
       padding-top: 50px;
-      background-image: url("../img/Bg_rose__table.jpg");
+      background-image: url("../img/Bg_rose__table.jpg") center center / cover
+        no-repeat;
     }
   }
   @media screen and (max-width: 576px) {
@@ -98,7 +99,7 @@
   font-weight: 100;
   font-size: 32px;
   color: var(--light-color);
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 801px) {
     margin-top: 50px;
   }
   @media screen and (max-width: 576px) {
